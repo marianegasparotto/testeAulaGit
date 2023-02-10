@@ -1,0 +1,121 @@
+/* Configurações para a pagina toda */
+*{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;     /* Comportamento do tamanho da pagina */
+    background-image:url("/assets/img/foto1.jpg");    /* imagem de fundo */
+    color: inherit;    /* Tirar cor padrão dos links */
+    font-family: 'Pacifico';
+}
+
+/* Centraliza e organiza os itens da pagina */
+.page{
+    display: flex;
+    justify-content: center;
+}
+
+/* Abriga os itens quadrado */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 200%;
+    background: rgba(147, 141, 168, 0.918);
+}
+
+/* Especificações para os itens quadrado */
+.quadrado{ 
+    width: 90%;
+    height: 130px;
+    display: flex;
+    background-image: linear-gradient(90deg, rgb(40, 119, 139), rgb(153, 169, 201), rgb(40, 119, 139));
+    justify-content:space-around;
+    border-radius: 20px;   /* borda arredondada */
+    padding: 10px 20px 160px 40px ;   /* top,right,bottom,left  */
+}
+
+/* Especificações para as imagens da página */
+.imagem{
+    height: 140px;
+    width: 170px;
+    border-radius: 20px; /* borda arredondada */
+}
+
+/* Tamanho diferente para estas imagens especificamente */
+#img2,#img3{
+    height: 150px;
+    width: 120px;
+}
+
+/* Link da imagem manter sem o fundo da página */
+#paradise{
+    background-image: none;
+}
+
+/* Texto do menu grifado */
+.menu{
+    text-decoration: underline;   
+}
+
+/* Sombra ao passar o cursor em menu */
+a:hover{
+    text-shadow: 1px 0px #505051;
+}
+
+/* Especificações para os textos da página */
+p{
+    padding-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Especificações para as caixas de texto */
+/* Caixa de texto se manter sem o fundo da página */
+input,textarea,label{
+    background-image: none;
+}
+
+/* Especificações caixa de texto "Seu email" */
+.form{
+    height: 20px;
+    background-image: none;
+    justify-content: left;
+}
+
+/* Tamanho caixa de texto "Escreva aqui" */
+#idtexto{
+    height: 70px;
+}
+
+/* Especificações para "Enviar" */
+#idenviar{
+    background-color: rgb(134, 80, 184);
+}
+
+/* Especificações para texto de contato */
+.text6{
+    background-image: none;
+    padding-top: 20px;
+}
+
+/* Especificações para icons de contato */
+.icons{
+    height: 45px;
+    width: 210px;
+    background-image: none;
+    padding-right: 120px;
+    padding-top: 10px;
+}
+
+/* Icons se manter sem o fundo da página */
+#iconig,#iconlink,#iconfone{
+    background-image: none;
+}
+
+/* Links se manter sem o fundo da página */
+a{
+   background-image: none;
+}
