@@ -14,7 +14,7 @@
 .page{
     display: flex;
     justify-content: center;
-    background-image: url(./assets/img/foto1.jpg); 
+    background-image: url(../img/foto1.jpg); 
 }
 
 /* Abriga os itens quadrado */
